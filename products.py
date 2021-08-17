@@ -11,3 +11,6 @@ while True:
     # 再來還可以縮減成下方寫法 p 換成清單內容
     products.append([name, price])
 print(products)
+
+for p in products:
+    print(p[0], '的價格是', p[1])

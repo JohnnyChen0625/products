@@ -1,6 +1,5 @@
 import os 
 
-#
 products = []
 if os.path.isfile('products.csv'):
     print('找到檔案')
